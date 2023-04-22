@@ -1,0 +1,295 @@
+{"intents": [
+    {"tag": "greeting",
+     "questions": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "questions": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "questions": ["Thanks", "Thank you", "That is helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "questions": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I am AruBot, your bot assistant, I provide course examination details ", "I'm AruBot, an Artificial Intelligent bot to give module assessment information"]
+    },
+    {"tag": "name",
+    "questions": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me AruBot.", "I'm AruBot!", "Just call me AruBot"]
+    },
+    {"tag": "help",
+    "questions": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how i can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "MOD001742",
+    "questions": ["When is Research Methodology,Design and Process assessment", "When is Research Methodology,Design and Process Exam", "Research Methodology,Design and Process"],
+    "responses": ["It's on 25th April, a computer based exam at Web 101 for all students from 2pm to 3pm", "Date:24/04/2023, Time:14pm-15pm, Description:Computer-Based, Venue: Web101","14:00pm-15:00pm, 2023-04-25,Computer based, at Web 101 for All"]
+    },
+    {"tag": "MOD001992",
+    "questions": ["When is Advanced Non Medical Prescribing assessment", "When is Advanced Non Medical Prescribing Exam", "Advanced Non Medical Prescribing"],
+    "responses": ["It's on 26th April, a computer based exam at Web 002 for surnames from A-K and at Web101 for L-Z from 10am to 12:30pm", "Date:26/04/2023, Time:10am-12:30pm, Description:Computer-Based, Venue: Web 002 for surnames from A-K, Web101 from L-Z","10:00am-12:30pm, 2023-04-26,Computer based, at Web 002 for surnames from A-K and at Web101 for L-Z"]
+    },
+    {"tag": "MOD002444",
+    "questions": ["When is Geometric Optics and Ophthalmic Lenses assessment", "When is Geometric Optics and Ophthalmic Lenses Exam", "Geometric Optics and Ophthalmic Lenses"],
+    "responses": ["It's on 27th April, a written exam at Lab220 for all students from 2pm to 5pm", "Date:27/04/2023, Time:14:00pm-17:00pm, Description:Written, Venue: Lab220","14:00pm-17:00pm, 2023-04-27,Written at Lab220 for All"]
+    },
+    {"tag": "MOD002447",
+    "questions": ["When is Audiological Assessment 1 assessment", "When is Audiological Assessment 1 Exam", "Audiological Assessment 1"],
+    "responses": ["It's on 27th April, a Computer based exam at Web 002 for surnames A-PA and Web 101 for surnames PB-Z from 10am to 12pm","Date:27/04/2023, Time:10:00am-12:00pm, Description:Computer based, Venue: Web 002 for surnames from A-PA, Web101 for PB-Z, 10am-12pm","10:00am-12:00pm, 2023-04-27, Written at Web 002 for surnames from A-PA, Web101 for PB-Z, 10am-12pm"]
+    },
+     {"tag": "MOD002455",
+    "questions": ["When is Understanding the Work Sector (Audiology) assessment", "When is Understanding the Work Sector (Audiology) Exam", "Understanding the Work Sector (Audiology)"],
+    "responses": ["It's on 27th April, a Computer based exam at Web 002 for surnames A-H and Web 101 for surnames I-Z from 2pm to 5pm","Date:27/04/2023, Time:14:00pm-17:00pm, Description:Computer based, Venue: Web 002 for surnames from A-H, Web101 for I-Z, 2pm - 5pm","14:00pm-17:00pm, 2023-04-27, Written at Web 002 for surnames from A-H, Web101 for I-Z, 2pm to 5pm"]
+    },
+    {"tag": "MOD002459",
+    "questions": ["When is Human and Ocular Anatomy assessment", "When is Human and Ocular Anatomy Exam", "Human and Ocular Anatomy"],
+    "responses": ["It's on 1st May, a written exam at Fenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 2pm to 5pm", "Date:01/05/2023, Time:14:00pm-17:00pm, Description:Written, Venue: Fenner's Gallery (Kelsey Kerridge Sports Centre)","14:00pm-17:00pm, 2023-05-01,Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    },
+    {"tag": "MOD002465",
+    "questions": ["When is Preliminary Ophthalmic Dispensing with Mathematics assessment", "When is Preliminary Ophthalmic Dispensing with Mathematics Exam", "Preliminary Ophthalmic Dispensing with Mathematics"],
+    "responses": ["It's on 27th April, a written exam at Lab 220 for all students from 10am to 11:30am", "Date:27/04/2023, Time:10:00am-11:30am, Description:Written, Venue: Lab 220","10:00am-11:30am, 2023-04-27,Written at Lab 220 for All"]
+    },
+    {"tag": "MOD002467",
+    "questions": ["When is Theoretical and Practical Ophthalmic Lenses assessment", "When is Theoretical and Practical Ophthalmic Lenses Exam", "Theoretical and Practical Ophthalmic Lenses"],
+    "responses": ["It's on 26th April, a Written exam at Lab 220 for surnames from A-F and at Lab 222 for G-PE, and at Lab 307 for PF-Z, from 9am to 12:30pm", "Date:25/04/2023, Time:9am-12:30pm, Description:Written, Venue:Lab 220 for surnames from A-F and at Lab 222 for G-PE, and at Lab 307 for PF-Z","09:00am-12:30pm, 2023-04-25,Written, at Lab 220 for surnames from A-F and at Lab 222 for G-PE, and at Lab 307 for PF-Z,"]
+    },
+    {"tag": "MOD002469",
+    "questions": ["When is Practical Procedures for the Hearing Care Assistant assessment", "When is Practical Procedures for the Hearing Care Assistant Exam", "Practical Procedures for the Hearing Care Assistant"],
+    "responses": ["It's on 27th April, a Computer based exam at Web 101 for all students from 10am to 12:00pm", "Date:27/04/2023, Time:10:00am-12:00pm, Description:Written, Venue: Web 101","10:00am-12:00pm, 2023-04-27,Written at Web 101 for All"]
+    },
+    {"tag": "MOD002473",
+    "questions": ["When is Ophthalmic Lenses 2 assessment", "Ophthalmic Lenses 2 Exam", "Ophthalmic Lenses 2"],
+    "responses": ["It's on 25th April, a Written exam at Cos 311 for all students from 10am to 11:30am", "Date:25/04/2023, Time:10:00am-11:30am, Description:Written, Venue: Cos 311","10:00am-11:30am, 2023-04-25,Written at Cos 311 for All"]
+    },
+    {"tag": "MOD002476",
+    "questions": ["When is Human and Functional Ocular Anatomy assessment", "Human and Functional Ocular Anatomy Exam", "Human and Functional Ocular Anatomy"],
+    "responses": ["It's on 24th April, a Computer based exam at Web 101 for all students from 02pm to 05:00pm", "Date:24/04/2023, Time:02:00pm-05:00pm, Description:Computer based, Venue: Web 101","02:00pm-05:00pm, 2023-04-24,Computer based at Web 101 for All"]
+    },
+    {"tag": "MOD002479",
+    "questions": ["When is Introduction to Ocular Disease assessment", "When is Introduction to Ocular Disease Exam", "Introduction to Ocular Disease"],
+    "responses": ["It's on 27th April, a Written exam at Cos 303 for surnames from A-A and at Cos 310 for B-N, and at Cos 311 for O-Z, from 10am to 12:00pm", "Date:27/04/2023, Time:10am-12:00pm, Description:Written, Venue:Cos 303 for surnames from A-A and at Cos 310 for B-N, and at Cos 311 for O-Z","10:00am-12:00pm, 2023-04-27,Written, at Cos 303 for surnames from A-A and at Cos 310 for B-N, and at Cos 311 for O-Z,"]
+    },
+    {"tag": "MOD002480",
+    "questions": ["When is Clinical Optometry 3 - Introduction to Professional Practice assessment exam", "Clinical Optometry 3 - Introduction to Professional Practice Exam", "Clinical Optometry 3 - Introduction to Professional Practice"],
+    "responses": ["It's on 25th April, a Written exam at Fenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 10am to 12:00pm", "Date:25/04/2023, Time:10:00am-12:00pm, Description:Written, Venue:Fenner's Gallery (Kelsey Kerridge Sports Centre)","10:00am-12:00pm, 2023-04-25,Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    },
+    {"tag": "MOD002486",
+    "questions": ["When is Refractive Management assessment", "When is Refractive Management Exam", "Refractive Management"],
+    "responses": ["It's on 25th April, a Written exam at Web 002 for all students from 02pm to 04:00pm", "Date:25/04/2023, Time:02:00pm-04:00pm, Description:Written, Venue:Web 002","02:00pm-04:00pm, 2023-04-25,Written at Web 002 for All"]
+    },
+    {"tag": "MOD002488",
+    "questions": ["When is Pharmacology and Pathology assessment", "When is Pharmacology and Pathology exam", "Pharmacology and Pathology"],
+    "responses": ["It's on 02nd MAY, a Written exam at Cos 303 for surnames from A-C and at Cos 310 for D-O, and at Cos 311 for P-Z, from 09:30am to 12:30pm", "Date:02/05/2023, Time:09:30am-12:30pm, Description:Written, Venue:Cos 303 for surnames from A-C and at Cos 310 for D-O, and at Cos 311 for P-Z","09:30am-12:30pm, 2023-05-02,Written, at Cos 303 for surnames from A-C and at Cos 310 for D-O, and at Cos 311 for P-Z,"]
+    },
+    {"tag": "MOD002493",
+    "questions": ["When is Optometry, Society and the Environment assessment", "When is Optometry, Society and the Environment exam", "Optometry, Society and the Environment"],
+    "responses": ["It's on 23nd April, a Written exam at Cos 310 for surnames A-J and Cos 311 for surnames K-Z from 02pm to 05pm","Date:23/04/2023, Time:02:00pm-05:00pm, Description:Written, Venue: Cos 310 for surnames from A-J and Cos 311 for K-Z", "02:00pm-05:00pm, 2023-04-23, Written at Cos 310 for surnames from A-J and Cos 311 for K-Z"]
+    },
+    {"tag": "MOD002495",
+    "questions": ["When is Final Practical Dispensing assessment", "When is Final Practical Dispensing exam", "Final Practical Dispensing"],
+    "responses": ["It's on 25th April, a Written exam at Cos 207 for all students from 02pm to 04:00pm", "Date:25/04/2023, Time:02:00pm-04:00pm, Description:Written, Venue:Cos 207","02:00pm-04:00pm, 2023-04-25,Written at Cos 207 for All"]
+    },
+    {"tag": "MOD002496",
+    "questions": ["When is Practice Management and Ocular Pathology assessment", "When is Practice Management and Ocular Pathology exam", "Practice Management and Ocular Pathology"],
+    "responses": ["It's on 27th April, a Written exam at Cos 107 for all students from 10am to 12:00pm", "Date:27/04/2023, Time:10:00am-12:00pm, Description:Written, Venue:Cos 107","10:00am-12:00pm, 2023-04-27,Written at Cos 107 for All"]
+    },
+    {"tag": "MOD002515",
+    "questions": ["When is Diagnosis and Formulation in Mental Health assessment", "When is Diagnosis and Formulation in Mental Health exam", "Diagnosis and Formulation in Mental Health"],
+    "responses": ["It's on 25th April, an Online - Canvas exam at N/A for all students from 10am to 11:30am", "Date:25/04/2023, Time:10:00am-11:30am, Description:Online - Canvas, Venue:N/A","10:00am-11:30am, 2023-04-25,Online - Canvas at N/A for All"]
+    },
+    {"tag": "MOD002525",
+    "questions": ["When is Consumer Psychology assessment", "When is Consumer Psychology exam", "Consumer Psychology"],
+    "responses": ["It's on 24th April, a Written exam at Cos 303 for all students from 10am to 11:30am", "Date:24/04/2023, Time:10:00am-11:30am, Description:Written, Venue:Cos 303","10:00am-11:30am, 2023-04-24,Written at Cos 303 for All"]
+    },
+    {"tag": "MOD002537",
+    "questions": ["When is Current Theoretical Issues in Cognitive Neuroscience assessment", "When is Current Theoretical Issues in Cognitive Neuroscience exam", "Current Theoretical Issues in Cognitive Neuroscience"],
+    "responses": ["It's on 25th April, a Written exam at Fenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 02pm to 03:30pm", "Date:25/04/2023, Time:02:00pm-03:30pm, Description:Written, Venue:Fenner's Gallery (Kelsey Kerridge Sports Centre)","02:00pm-03:30pm, 2023-04-25,Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    },
+    {"tag": "MOD002630",
+    "questions": ["When is Networking Technologies assessment", "When is Networking Technologies exam", "Networking Technologies"],
+    "responses": ["It's on 23rd April, a Written exam at Lab 220 for surnames from A-G and at Lab 222 for H-M, and at Lab 307 for N-Z, from 02:00pm-03:30pm", "Date:23/04/2023, Time:02:00pm-03:30pm, Description:Written, Venue:Lab 220 for surnames from A-G and at Lab 222 for H-M, and at Lab 307 for N-Z","02:00pm-03:30pm, 2023-04-23,Written, at Lab 220 for surnames from A-C and at Lab 222 for H-M, and at Lab 307 for N-Z,"]
+    },
+    {"tag": "MOD002641",
+    "questions": ["When is Data Structures and Algorithms assessment", "When is Data Structures and Algorithms exam", "Data Structures and Algorithms"],
+    "responses": ["It's on 24th April, a Written exam at Lab 220 for surnames A-I and Lab 222 for surnames J-Z from 10am to 11:30am","Date:24/04/2023, Time:10:00am-11:30am, Description:Written, Venue: Lab 220 for surnames from A-I, Lab 222 for J-Z, 10am-11:30am","10:00am-11:30am, 2023-04-24, Written at Lab 220 for surnames from A-I, Lab 222 for J-Z, 10am-11:30am"]
+    },
+    {"tag": "MOD002643",
+    "questions": ["When is Image Processing assessment", "When is Image Processing exam", "Image Processing"],
+    "responses": ["It's on 26th April, a Written exam at Lab 220 for all students from 10am to 11:30am", "Date:26/04/2023, Time:10:00am-11:30am, Description:Written, Venue:Lab 220","10:00am-11:30am, 2023-04-26,Written at Lab 220 for All"]
+    },
+    {"tag": "MOD002712",
+    "questions": ["When is Computer Systems and Servers assessment", "When is Computer Systems and Servers exam", "Computer Systems and Servers"],
+    "responses": ["It's on 26th April, a Written exam at Fenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 02pm to 03:00pm", "Date:26/04/2023, Time:02:00pm-03:00pm, Description:Written, Venue:Fenner's Gallery (Kelsey Kerridge Sports Centre)","02:00pm-03:00pm, 2023-04-26,Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    },
+    {"tag": "MOD002790",
+    "questions": ["When is Evolutionary Bases of Behaviour assessment", "When is Evolutionary Bases of Behaviour exam", "Evolutionary Bases of Behaviour"],
+    "responses": ["It's on 26th April, a Written exam at Fenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 02pm to 03:00pm", "Date:26/04/2023, Time:02:00pm-03:00pm, Description:Written, Venue:Fenner's Gallery (Kelsey Kerridge Sports Centre)","02:00pm-03:00pm, 2023-04-26,Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    },
+    {"tag": "MOD002800",
+    "questions": ["When is Principles of Pathology assessment", "When is Principles of Pathology exam", "Principles of Pathology"],
+    "responses": ["It's on 24th April, a Written exam at Cos 310 for surnames from A-BA and at Cos 311 for BB-DJ, and at Fenner's Gallery (Kelsey Kerridge Sports Centre) for DK-Z, from 10:00am-11:30am", "Date:24/04/2023, Time:10:00am-11:30am, Description:Written, Venue:Cos 310 for surnames from A-BA and at Cos 311 for BB-DJ, and at Fenner's Gallery (Kelsey Kerridge Sports Centre) for DK-Z","10:00am-11:30am, 2023-04-24,Written, at Cos 310 for surnames from A-BA and at Cos 311 for BB-DJ, and at Fenner's Gallery (Kelsey Kerridge Sports Centre) DK-Z,"]
+    },
+    {"tag": "MOD002801",
+    "questions": ["When is The Physiology of Organ Systems assessment", "When is The Physiology of Organ Systems exam", "The Physiology of Organ Systems"],
+    "responses": ["It's on 26th April, a Written exam at Cos 207 for surnames from A-A and at Cos 209 for B-B,at Cos 210 for C-C, and at Fenner's Gallery (Kelsey Kerridge Sports Centre) for D-Z, from 11:00am-12:00pm", "Date:26/04/2023, Time:11:00am-12:00pm, Description:Written, Venue:Cos 207 for surnames from A-A and at Cos 209 for B-B,at Cos 210 for C-C, and at Fenner's Gallery (Kelsey Kerridge Sports Centre) for D-Z","11:00am-12:00pm, 2023-04-26,Written, at Cos 207 for surnames from A-A and at Cos 209 for B-B,at Cos 210 for C-C, and at Fenner's Gallery (Kelsey Kerridge Sports Centre) D-Z,"]
+    },
+    {"tag": "MOD002971",
+    "questions": ["When is Molecular Genetics and Bioinformatics assessment", "When is Molecular Genetics and Bioinformatics exam", "Molecular Genetics and Bioinformatics"],
+    "responses": ["It's on 27th April, a Written exam at Cos 303 for all students from 10am to 12:00pm", "Date:27/04/2023, Time:10:00am-12:00pm, Description:Written, Venue:Cos 303","10:00am-12:00pm, 2023-04-27,Written at Cos 303 for All"]
+    },
+    {"tag": "MOD002976",
+    "questions": ["When is Mastering Forensic Evidence assessment", "When is Mastering Forensic Evidence exam", "Mastering Forensic Evidence"],
+    "responses": ["It's on 26th April, a Written exam at Lab 220 for surnames A-O and Lab 222 for surnames P-Z from 02pm to 05pm","Date:26/04/2023, Time:02:00pm-05:00pm, Description:Written, Venue: Lab 220 for surnames from A-O, Lab 222 for P-Z, 02:00pm-05:00pm","02:00pm-05:00pm, 2023-04-26, Written at Lab 220 for surnames from A-O, Lab 222 for P-Z, 02:00pm-05:00pm"]
+    },
+    {"tag": "MOD003189",
+    "questions": ["When is Advanced Ophthalmic Lenses assessment", "When is Advanced Ophthalmic Lenses exam", "Advanced Ophthalmic Lenses"],
+    "responses": ["It's on 02nd MAY, a Written exam at Lab 220 for all students from 10am to 12:00pm", "Date:05/05/2023, Time:10:00am-12:00pm, Description:Written, Venue:Lab 220","10:00am-12:00pm, 2023-05-02,Written at Lab 220 for All"]
+    },
+    {"tag": "MOD003209",
+    "questions": ["When is Mastering Forensic Analysis assessment", "When is Mastering Forensic Analysis exam", "Mastering Forensic Analysis"],
+    "responses": ["It's on 02nd MAY, a Written exam at Cos 310 for surnames A-MAN and Cos 311 for surnames MAO-Z from 02pm to 04pm","Date:02/05/2023, Time:02:00pm-05:00pm, Description:Written, Venue: Cos 310 for surnames from A-MAN, Cos 311 for MAO-Z, 02:00pm-04:00pm","02:00pm-04:00pm, 2023-05-02, Written at Cos 310 for surnames from A-MAN, Cos 311 for MAO-Z 02:00pm-04:00pm"]
+    },
+    {"tag": "MOD003455",
+    "questions": ["When is Professional and Ethical Practice assessment", "When is Professional and Ethical Practice", "Professional and Ethical Practice"],
+    "responses": ["It's on 25th April, a Written exam at Cos 310 for surnames A-N and Cos 311 for surnames O-Z from 10am to 11:30am","Date:25/04/2023, Time:02:00pm-05:00pm, Description:Written, Venue: Cos 310 for surnames from A-N, Cos 311 for O-Z, 10:00am-11:30am","10:00am-11:30am, 2023-04-25, Written at Cos 310 for surnames from A-N, Cos 311 for O-Z, 10:00am-11:30am"]
+    },
+    {"tag": "MOD003640",
+    "questions": ["When is Vocational, Recreational and Paediatric Dispensing assessment", "When is Vocational, Recreational and Paediatric Dispensing exam", "Vocational, Recreational and Paediatric Dispensing"],
+    "responses": ["It's on 01st MAY, a Written exam at Fenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 10am to 12:00pm", "Date:01/05/2023, Time:10:00am-12:00pm, Description:Written, Venue:Fenner's Gallery (Kelsey Kerridge Sports Centre)","10:00am-12:00pm, 2023-05-01,Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    },
+    {"tag": "MOD004368",
+    "questions": ["When is Safe Medicate 3 assessment", "When is Safe Medicate 3 exam", "Safe Medicate 3"],
+    "responses": ["It's on 25th April, a Computer based exam at Lab 223 for all students from 10am to 11:00am", "Date:25/04/2023, Time:10:00am-11:00am, Description:Computer based, Venue:Lab 223","10:00am-11:00am, 2023-04-25,a Computer based at Lab 223 for All"]
+    },
+    {"tag": "MOD005413",
+    "questions": ["When is Consumer Analysis assessment", "When is Consumer Analysis exam", "Consumer Analysis"],
+    "responses": ["It's on 25th April, a Written exam at Cos 207 for all students from 02pm to 04:00pm", "Date:25/04/2023, Time:02:00pm-04:00pm, Description:Written, Venue:Cos 207","02:00pm-04:00pm, 2023-04-25,a Written at Cos 207 for All"]
+    },
+    {"tag": "MOD005797",
+    "questions": ["When is Forensic Spectroscopy Techniques assessment", "When is Forensic Spectroscopy Techniques exam", "Forensic Spectroscopy Techniques"],
+    "responses": ["It's on 25th April, a Written exam at Fenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 02pm to 03:30pm", "Date:25/04/2023, Time:02:00pm-03:30pm, Description:Written, Venue:Fenner's Gallery (Kelsey Kerridge Sports Centre)","02:00pm-03:30pm, 2023-04-25,a Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    },
+    {"tag": "MOD005898",
+    "questions": ["When is Exploring Aspects of Anatomy and Physiology assessment", "When is Exploring Aspects of Anatomy and Physiology exam", "Exploring Aspects of Anatomy and Physiology"],
+    "responses": ["It's on 27th April, a Written exam at Lab 307 for all students from 10am to 12:00pm", "Date:27/04/2023, Time:10:00am-12:00pm, Description:Written, Venue:Lab 307","10:00am-12:00pm, 2023-04-27,a Written at Lab 307 for All"]
+    },
+    {"tag": "MOD006559",
+    "questions": ["When is Introduction to Mathematical Techniques for Artificial Intelligence assessment", "When is Introduction to Mathematical Techniques for Artificial Intelligence exam", "Introduction to Mathematical Techniques for Artificial Intelligence"],
+    "responses": ["It's on 23rd April, a Written exam at Lab 220 for surnames A-J and Lab 222 for surnames K-Z from 10am to 12:00pm","Date:23/04/2023, Time:10:00am-12:00pm, Description:Written, Venue: Lab 220 for surnames from A-J, Lab 222 for K-Z, 10:00am-12:00pm","10:00am-12:00pm, 2023-04-23, Written at Lab 220 for surnames from A-J, Lab 222 for K-Z, 10:00am-12:00pm"]
+    },
+    {"tag": "MOD006561",
+    "questions": ["When is Artificial Neural Networks assessment", "When is Artificial Neural Networks exam", "Artificial Neural Networks"],
+    "responses": ["It's on 25th April, a Written exam at Cos 303 for all students from 10am to 11:30am", "Date:25/04/2023, Time:10:00am-11:30am, Description:Written, Venue:Cos 303","10:00am-11:30am, 2023-04-25,a Written at Cos 303 for All"]
+    }, 
+    {"tag": "MOD006563",
+    "questions": ["When is Advanced Analytical Techniques for Artificial Intelligence assessment", "When is Advanced Analytical Techniques for Artificial Intelligence exam", "Advanced Analytical Techniques for Artificial Intelligence"],
+    "responses": ["It's on 27th April, a Written exam at Lab 307 for all students from 02pm to 04:00pm", "Date:27/04/2023, Time:02:00pm-04:00pm, Description:Written, Venue:Lab 307","02:00pm-04:00pm, 2023-04-27,a Written at Lab 307 for All"]
+    },
+    {"tag": "MOD006565",
+    "questions": ["When is Deep Learning assessment", "When is Deep Learning exam", "Deep Learning"],
+    "responses": ["It's on 01st MAY, a Written exam at Fenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 10am to 12:00pm", "Date:01/05/2023, Time:10:00am-12:00pm, Description:Written, Venue:Fenner's Gallery (Kelsey Kerridge Sports Centre)","10:00am-12:00pm, 2023-05-01,a Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    },
+    {"tag": "MOD006566",
+    "questions": ["When is Advanced Machine Learning assessment", "When is Advanced Machine Learning exam", "Advanced Machine Learning"],
+    "responses": ["It's on 26th April, a Written exam at Lab 307 for all students from 02pm to 04:30pm", "Date:26/04/2023, Time:02:00pm-04:30pm, Description:Written, Venue:Lab 307","02:00pm-04:30pm, 2023-04-26,a Written at Lab 307 for All"]
+    },
+    {"tag": "MOD006568",
+    "questions": ["When is Neural Computing and Deep Learning assessment", "When is Neural Computing and Deep Learning", "Neural Computing and Deep Learning"],
+    "responses": ["It's on 24th April, a Written exam at Cos 303 for surnames from A-A and at Cos 310 for B-M, and at Cos 311 for N-Z, from 10:00am-12:30pm", "Date:24/04/2023, Time:10:00am-12:30pm, Description:Written, Venue:Cos 303 for surnames from A-A and at Cos 310 for B-M, and at Cos 311 for N-Z","10:00am-12:30pm, 2023-04-24,Written, at Cos 303 for surnames from A-A and at Cos 311 for B-M, and at Cos 311 N-Z,"]
+    },
+    {"tag": "MOD006609",
+    "questions": ["When is Mammalogy assessment", "When is Mammalogy exam", "Mammalogy"],
+    "responses": ["It's on 24th April, a Written exam at Lab 220 for surnames from A-E and at Lab 222 for F-P, and at Lab 307 for Q-Z, from 02:00pm-03:30pm", "Date:24/04/2023, Time:02:00pm-03:30pm, Description:Written, Venue:Lab 220 for surnames from A-E and at Lab 222 for F-P, and at Lab 307 for Q-Z","02:00pm-03:30pm, 2023-04-24,Written, at Lab 220 for surnames from A-E and at Lab 222 for F-P, and at Lab 307 Q-Z,"]
+    },
+    {"tag": "MOD006612",
+    "questions": ["When is Financial Management assessment", "When is Financial Management exam", "Financial Management"],
+    "responses": ["It's on 25th April, a Written exam at Cos 310 for surnames A-L and Cos 311 for surnames M-Z from 02pm to 05:15pm","Date:25/04/2023, Time:02:00pm-05:15pm, Description:Written, Venue: Cos 310 for surnames from A-L, Cos 311 for M-Z, 02:00pm-05:15pm","02:00pm-05:15pm, 2023-04-25, Written at Cos 310 for surnames from A-L, Cos 311 for M-Z, 02:00pm-05:15pm"]
+    },
+    {"tag": "MOD007125",
+    "questions": ["When is Diagnosis and Formulation in Mental Health (Level 7) assessment", "When is Diagnosis and Formulation in Mental Health (Level 7) exam", "Diagnosis and Formulation in Mental Health (Level 7)"],
+    "responses": ["It's on 25th April, an Online - Canvas exam at N/A for all students from 10am to 11:30am", "Date:25/04/2023, Time:10:00am-11:30am, Description:an Online - Canvas, Venue:N/A","10:00am-11:30am, 2023-04-25,an Online - Canvas at N/A for All"]
+    },
+    {"tag": "MOD007138",
+    "questions": ["When is Chest Pain and Shortness of Breath assessment", "When is Chest Pain and Shortness of Breath exam", "Chest Pain and Shortness of Breath"],
+    "responses": ["It's on 25th April, a Computer based exam at Web 101 for all students from 10am to 12:00pm", "Date:25/04/2023, Time:10:00am-12:00pm, Description:a Computer based, Venue:Web 101","10:00am-12:00pm, 2023-04-25,a Computer based at Web 101"]
+    },
+    {"tag": "MOD007147",
+    "questions": ["When is Research Methodology for Healthcare Professionals assessment", "When is Research Methodology for Healthcare Professionals exam", "Research Methodology for Healthcare Professionals"],
+    "responses": ["It's on 25th April, a Computer based exam at Web 101 for all students from 02pm to 03:00pm", "Date:25/04/2023, Time:02:00pm-03:00pm, Description:a Computer based, Venue:Web 101","02:00pm-03:00pm, 2023-04-25,a Computer based at Web 101"]
+    },
+    {"tag": "MOD007167",
+    "questions": ["When is Performance Management assessment", "When is Performance Management exam", "Performance Management"],
+    "responses": ["It's on 01st MAY, a Written exam at Lab 222 for all students from 02pm to 05:15pm", "Date:01/05/2023, Time:02:00pm-05:15pm, Description:a Written, Venue:Lab 222","02:00pm-05:15pm, 2023-05-01,a Written at Lab 222"]
+    },
+    {"tag": "MOD007168",
+    "questions": ["When is Taxation in the UK assessment", "When is Taxation in the UK exam", "Taxation in the UK"],
+    "responses": ["It's on 27th April, a Written exam at Cos 310 for surnames A-M and Cos 311 for surnames N-Z from 02pm to 05:15pm","Date:27/04/2023, Time:02:00pm-05:15pm, Description:Written, Venue: Cos 310 for surnames from A-M, Cos 311 for N-Z, 02:00pm-05:15pm","02:00pm-05:15pm, 2023-04-27, Written at Cos 310 for surnames from A-M, Cos 311 for N-Z, 02:00pm-05:15pm"]
+    },
+    {"tag": "MOD007169",
+    "questions": ["When is Corporate Governance and Auditing assessment", "When is Corporate Governance and Auditing exam", "Corporate Governance and Auditing"],
+    "responses": ["It's on 27th April, a Written exam at Cos 311 for all students from 02pm to 05:15pm", "Date:27/04/2023, Time:02:00pm-05:15pm, Description:Written, Venue:Cos 311","02:00pm-05:15pm, 2023-04-27,a Written at Cos 311 for All"]
+    },
+    {"tag": "MOD007174",
+    "questions": ["When is International Financial Reporting assessment", "When is International Financial Reporting exam", "International Financial Reporting"],
+    "responses": ["It's on 25th April, a Written exam at Cos 303 for all students from 02pm to 05:15pm", "Date:25/04/2023, Time:02:00pm-05:15pm, Description:Written, Venue:Cos 303","02:00pm-05:15pm, 2023-04-25,a Written at Cos 303 for All"]
+    },
+    {"tag": "MOD007180",
+    "questions": ["When is Animal Health and Disease assessment", "When is Animal Health and Disease exam", "Animal Health and Disease"],
+    "responses": ["It's on 01st MAY, a Written exam at Cos 310 for all students from 11am to 12:00pm", "Date:01/05/2023, Time:11:00am-12:00pm, Description:Written, Venue:Cos 310","11:00am-12:00pm, 2023-05-01,a Written at Cos 310 for All"]
+    },
+     {"tag": "MOD007288",
+    "questions": ["When is Clinical Optometry 1 - Introduction to Optometric Practice assessment", "When is Clinical Optometry 1 - Introduction to Optometric Practice exam", "Clinical Optometry 1 - Introduction to Optometric Practice"],
+    "responses": ["It's on 27th April, a Written exam at Cos 207 for surnames from A-H and at Cos 209 for I-R, and at Cos 210 for S-Z, from 10am to 12:00pm", "Date:27/04/2023, Time:10:00am-12:00pm, Description:Written, Venue:Cos 207 for surnames from A-E and at Cos 209 for I-R, and at Cos 210 for S-Z","10:00am-12:00pm, 2023-04-27,Written, at Cos 207 for surnames from A-E and at Cos 209 for I-R, and at Cos 210 S-Z,"]
+    },
+    {"tag": "MOD007289",
+    "questions": ["When is Geometrical and Visual Optics assessment", "When is Geometrical and Visual Optics exam", "Geometrical and Visual Optics"],
+    "responses": ["It's on 02nd MAY, a Written exam at Lab 220 for all students from 10am to 12:00pm", "Date:02/05/2023, Time:10:00am-12:00pm, Description:Written, Venue:Lab 220","10:00am-12:00pm, 2023-05-02,a Written at Lab 220 for All"]
+    },
+    {"tag": "MOD007291",
+    "questions": ["When is Clinical Optometry 2 - Skills for Optometric Practice assessment", "When is Clinical Optometry 2 - Skills for Optometric Practice exam", "Clinical Optometry 2 - Skills for Optometric Practice"],
+    "responses": ["It's on 01st MAY, a Written exam atFenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 10am to 12:00pm", "Date:01/05/2023, Time:10:00am-12:00pm, Description:Written, Venue:Fenner's Gallery (Kelsey Kerridge Sports Centre)","10:00am-12:00pm, 2023-05-01,a Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    },
+    {"tag": "MOD007293",
+    "questions": ["When is Monocular, Binocular and Paediatric Vision assessment", "When is Monocular, Binocular and Paediatric Vision exam", "Monocular, Binocular and Paediatric Vision"],
+    "responses": ["It's on 03rd MAY, a Written exam at Lab 222 for all students from 09:30am to 12:00pm", "Date:03/05/2023, Time:09:30am-12:00pm, Description:Written, Venue:Lab 222","09:30am-12:00pm, 2023-05-03,a Written at Lab 222 for All"]
+    },
+    {"tag": "MOD007302",
+    "questions": ["When is Clinical Optometry 4 - Advanced Optometric Practice assessment", "When is Clinical Optometry 4 - Advanced Optometric Practice exam", "Clinical Optometry 4 - Advanced Optometric Practice"],
+    "responses": ["It's on 27th April, a Written Element 010 exam at Cos 210 for all students from 02pm to 03:30pm", "Date:27/04/2023, Time:02:00pm-03:30pm, Description:Written Element 010, Venue:Cos 210","02:00pm-03:30pm, 2023-04-27,a Written Element 010 at Cos 210 for All"]
+    },
+    {"tag": "MOD007302",
+    "questions": ["When is Clinical Optometry 4 - Advanced Optometric Practice assessment", "When is Clinical Optometry 4 - Advanced Optometric Practice exam", "Clinical Optometry 4 - Advanced Optometric Practice"],
+    "responses": ["It's on 01st MAY, a Written Element 011 exam at Cos 210 for all students from 02pm to 03:30pm", "Date:01/05/2023, Time:02:00pm-03:30pm, Description:Written Element 011, Venue:Cos 210","02:00pm-03:30pm, 2023-05-01,a Written Element 011 at Cos 210 for All"]
+    },
+    {"tag": "MOD007303",
+    "questions": ["When is Clinical Optometry 5 - Professional Practice assessment", "When is Clinical Optometry 5 - Professional Practice exam", "Clinical Optometry 5 - Professional Practice"],
+    "responses": ["It's on 25th April, a Written exam atFenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 10am to 12:00pm", "Date:25/04/2023, Time:10:00am-12:00pm, Description:Written, Venue:Fenner's Gallery (Kelsey Kerridge Sports Centre)","10:00am-12:00pm, 2023-04-25,a Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    },
+    {"tag": "MOD007304",
+    "questions": ["When is Clinical Optometry 6 - Advanced Contact Lens Practice assessment", "When is Clinical Optometry 6 - Advanced Contact Lens Practice exam", "Clinical Optometry 6 - Advanced Contact Lens Practice"],
+    "responses": ["It's on 02nd MAY, a Written Element 011 exam at Cos 311 for all students from 02pm to 03:30pm", "Date:02/05/2023, Time:02:00pm-03:30pm, Description:Written Element 011, Venue:Cos 311","02:00pm-03:30pm, 2023-05-02,a Written Element 011 at Cos 311 for All"]
+    },
+    {"tag": "MOD007890",
+    "questions": ["When is Analytical Techniques exam", "When is Analytical Techniques assessment", "Analytical Techniques"],
+    "responses": ["It's on 26th April, a Written exam at Lab 222 for all students from 02pm to 05pm", "Date:26/04/2023, Time:02:00pm-05:00pm, Description:Written, Venue:Lab 222","02:00pm-05:00pm, 2023-04-26,a Written at Lab 222 for All"]
+    },
+    {"tag": "MOD008020",
+    "questions": ["When is Universal Midwifery Care", "When is Universal Midwifery Care assessment exam", "Universal Midwifery Care"],
+    "responses": ["It's on 26th April, a Computer based exam at Web 002 for surnames A-G and Web 101 for surnames H-Z from 02pm to 03:00pm","Date:26/04/2023, Time:02:00pm-03:00pm, Description:Computer based, Venue: Web 002 for surnames from A-G, Web 101 for H-Z, 02:00pm-03:00pm","02:00pm-03:00pm, 2023-04-26, Computer based at Web 002 for surnames from A-G, Web 101 for H-Z, 02:00pm-03:00pm"]
+    },
+    {"tag": "MOD008026",
+    "questions": ["When is Complexities in Midwifery Practice assessment", "When is Complexities in Midwifery Practice exam", "Complexities in Midwifery Practice"],
+    "responses": ["It's on 26th April, a Written exam at Cos 310 for all students from 02pm to 04pm", "Date:26/04/2023, Time:02:00pm-04:00pm, Description:Written, Venue:Cos 310","02:00pm-04:00pm, 2023-04-26,a Written at Cos 310 for All"]
+    },
+    {"tag": "MOD008407",
+    "questions": ["When is Applied Animal Behaviour and Animal Welfare (Level 7) assessment", "When is Applied Animal Behaviour and Animal Welfare (Level 7) exam", "Applied Animal Behaviour and Animal Welfare (Level 7)"],
+    "responses": ["It's on 26th April, a Written exam at Fenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 02pm to 03pm", "Date:26/04/2023, Time:02:00pm-03:00pm, Description:Written, Venue:Fenner's Gallery (Kelsey Kerridge Sports Centre)","02:00pm-03:00pm, 2023-04-26,a Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    },
+    {"tag": "MOD008409",
+    "questions": ["When is Cognition, Evolution and Behaviour (Level 7) assessment", "When is Cognition, Evolution and Behaviour (Level 7) exam", "Cognition, Evolution and Behaviour (Level 7)"],
+    "responses": ["It's on 25th April, a Written exam at Fenner's Gallery (Kelsey Kerridge Sports Centre) for all students from 02pm to 03:30pm", "Date:25/04/2023, Time:02:00pm-03:30pm, Description:Written, Venue:Fenner's Gallery (Kelsey Kerridge Sports Centre)","02:00pm-03:30pm, 2023-04-25,a Written at Fenner's Gallery (Kelsey Kerridge Sports Centre) for All"]
+    }
+]
+}
